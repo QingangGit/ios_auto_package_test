@@ -1,0 +1,130 @@
+2022-01-09 11:43:44 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fd7f5f5b670; archive(resolved)='<IDEArchive: 0x7fd7f2ceb2c0>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodDevelopmentSigned: 0x7fd7f5e377a0>', team(resolved)='<IDEProvisioningBasicTeam: 0x7fd7f5f4b740; teamID='72T9692VHT', teamName='(null)'>'>
+	Chain (13, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fd7f5f5b670; archive = '<IDEArchive: 0x7fd7f2ceb2c0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fd7f5e377a0>', team='<IDEProvisioningBasicTeam: 0x7fd7f5f4b740; teamID='72T9692VHT', teamName='(null)'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fd7f5f5b460; archive = '<IDEArchive: 0x7fd7f2ceb2c0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fd7f5e377a0>', team='<IDEProvisioningBasicTeam: 0x7fd7f5f4b740; teamID='72T9692VHT', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fd7f5f526c0; archive = '<IDEArchive: 0x7fd7f2ceb2c0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fd7f5e377a0>', team='<IDEProvisioningBasicTeam: 0x7fd7f5f4b740; teamID='72T9692VHT', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fd7f5f3ab50; archive = '<IDEArchive: 0x7fd7f2ceb2c0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fd7f5e377a0>', team='<IDEProvisioningBasicTeam: 0x7fd7f5f4b740; teamID='72T9692VHT', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fd7f5f3a4f0; archive = '<IDEArchive: 0x7fd7f2ceb2c0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fd7f5e377a0>', team='<IDEProvisioningBasicTeam: 0x7fd7f5f4b740; teamID='72T9692VHT', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fd7f5f2ed80; archive = '<IDEArchive: 0x7fd7f2ceb2c0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fd7f5e377a0>', team='<IDEProvisioningBasicTeam: 0x7fd7f5f4b740; teamID='72T9692VHT', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fd7f5f43ba0; archive = '<IDEArchive: 0x7fd7f2ceb2c0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fd7f5e377a0>', team='<IDEProvisioningBasicTeam: 0x7fd7f5f4b740; teamID='72T9692VHT', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fd7f5f36b50; archive = '<IDEArchive: 0x7fd7f2ceb2c0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fd7f5e377a0>', team='<IDEProvisioningBasicTeam: 0x7fd7f5f4b740; teamID='72T9692VHT', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fd7f5e4c4d0; archive = '<IDEArchive: 0x7fd7f2ceb2c0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fd7f5e377a0>', team='<IDEProvisioningBasicTeam: 0x7fd7f5f4b740; teamID='72T9692VHT', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fd7f5e4dfe0; archive = '<IDEArchive: 0x7fd7f2ceb2c0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fd7f5e377a0>', team='(null)'>
+	<IDEDistributionContext: 0x7fd7f5e43980; archive = '<IDEArchive: 0x7fd7f2ceb2c0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fd7f5e377a0>', team='(null)'>
+	<IDEDistributionContext: 0x7fd7f2cf8f60; archive = '<IDEArchive: 0x7fd7f2ceb2c0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fd7f5e377a0>', team='(null)'>
+	<IDEDistributionContext: 0x7fd7f2ceb7a0; archive = '<IDEArchive: 0x7fd7f2ceb2c0>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fd7f5f5b670>
+2022-01-09 11:43:44 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
+2022-01-09 11:43:44 +0000 [MT] Processing step: IDEDistributionCopyItemStep
+2022-01-09 11:43:44 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/qin/Desktop/ios_auto_package_test/ios_auto_package_test/archieve_temp/iOS_dddd/iOS_dddd.xcarchive/Products/Applications/iOS_dddd.app' '/var/folders/9n/fv59zbrn23gbnd07w3wslvwc0000gn/T/XcodeDistPipeline.~~~Vo4HUF/Root/Payload/iOS_dddd.app'
+2022-01-09 11:43:44 +0000  >>> Copying /Users/qin/Desktop/ios_auto_package_test/ios_auto_package_test/archieve_temp/iOS_dddd/iOS_dddd.xcarchive/Products/Applications/iOS_dddd.app 
+2022-01-09 11:43:44 +0000  copying file ./_CodeSignature/CodeResources ... 
+2022-01-09 11:43:44 +0000  3895 bytes for ./_CodeSignature/CodeResources
+2022-01-09 11:43:44 +0000  copying file ./iOS_dddd ... 
+2022-01-09 11:43:44 +0000  71072 bytes for ./iOS_dddd
+2022-01-09 11:43:44 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2022-01-09 11:43:44 +0000  916 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+2022-01-09 11:43:44 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2022-01-09 11:43:44 +0000  1173 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2022-01-09 11:43:44 +0000  258 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2022-01-09 11:43:44 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2022-01-09 11:43:44 +0000  1173 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2022-01-09 11:43:44 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2022-01-09 11:43:44 +0000  896 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2022-01-09 11:43:44 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2022-01-09 11:43:44 +0000  copying file ./embedded.mobileprovision ... 
+2022-01-09 11:43:44 +0000  16364 bytes for ./embedded.mobileprovision
+2022-01-09 11:43:44 +0000  copying file ./Info.plist ... 
+2022-01-09 11:43:44 +0000  1103 bytes for ./Info.plist
+2022-01-09 11:43:44 +0000  copying file ./PkgInfo ... 
+2022-01-09 11:43:44 +0000  8 bytes for ./PkgInfo
+2022-01-09 11:43:44 +0000 [MT] /usr/bin/ditto exited with 0
+2022-01-09 11:43:44 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
+2022-01-09 11:43:44 +0000 [MT] Processing step: IDEDistributionInfoPlistStep
+2022-01-09 11:43:44 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2022-01-09 11:43:44 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
+2022-01-09 11:43:44 +0000 [MT] Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2022-01-09 11:43:44 +0000 [MT] Processing step: IDEDistributionCompileBitcodeStep
+2022-01-09 11:43:44 +0000 [MT] Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2022-01-09 11:43:44 +0000 [MT] Processing step: IDEDistributionCodeSlimmingStep
+2022-01-09 11:43:44 +0000 [MT] Processing step: IDEDistributionCopyBCSymbolMapsStep
+2022-01-09 11:43:44 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2022-01-09 11:43:44 +0000 [MT] Processing step: IDEDistributionSymbolsStep
+2022-01-09 11:43:44 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2022-01-09 11:43:44 +0000 [MT] Processing step: IDEDistributionAppThinningStep
+2022-01-09 11:43:44 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
+2022-01-09 11:43:44 +0000 [MT] Processing step: IDEDistributionArchThinningStep
+2022-01-09 11:43:44 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/9n/fv59zbrn23gbnd07w3wslvwc0000gn/T/XcodeDistPipeline.~~~Vo4HUF/Root/Payload/iOS_dddd.app/iOS_dddd' '-verify_arch' 'arm64e'
+2022-01-09 11:43:44 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2022-01-09 11:43:44 +0000 [MT] Skipping architecture thinning for item "iOS_dddd" because arch "arm64e" wasn't found
+2022-01-09 11:43:44 +0000 [MT] Processing step: IDEDistributionODRStep
+2022-01-09 11:43:44 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
+2022-01-09 11:43:44 +0000 [MT] Running /usr/bin/xattr '-crs' '/var/folders/9n/fv59zbrn23gbnd07w3wslvwc0000gn/T/XcodeDistPipeline.~~~Vo4HUF/Root/Payload/iOS_dddd.app'
+2022-01-09 11:43:44 +0000 [MT] /usr/bin/xattr exited with 0
+2022-01-09 11:43:44 +0000 [MT] Processing step: IDEDistributionCodesignStep
+2022-01-09 11:43:44 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7fd7f5e6bfd0; bundleID='qqq.bgdemo', path='<DVTFilePath:0x7fd7f2ceac40:'/Users/qin/Desktop/ios_auto_package_test/ios_auto_package_test/archieve_temp/iOS_dddd/iOS_dddd.xcarchive/Products/Applications/iOS_dddd.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fd7f601aba0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fd7f5f66d10; name='iPhone Developer: yifan zheng (3K4YB4P7U5)', hash='5A24EC027650DD1E4E7837C80F6C30223C833089', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fd7f5f64690>', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-01 09:57:18 +0000''>', entitlements='{
+    "application-identifier" = "72T9692VHT.qqq.bgdemo";
+    "com.apple.developer.team-identifier" = 72T9692VHT;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "72T9692VHT.qqq.bgdemo"
+    );
+}', teamID='72T9692VHT', identifier='qqq.bgdemo', executablePath='<DVTFilePath:0x7fd7f5e5e6c0:'/Users/qin/Desktop/ios_auto_package_test/ios_auto_package_test/archieve_temp/iOS_dddd/iOS_dddd.xcarchive/Products/Applications/iOS_dddd.app/iOS_dddd'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "72T9692VHT.qqq.bgdemo";
+    "com.apple.developer.team-identifier" = 72T9692VHT;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "72T9692VHT.qqq.bgdemo"
+    );
+}
+2022-01-09 11:43:44 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7fd7f5e6bfd0; bundleID='qqq.bgdemo', path='<DVTFilePath:0x7fd7f2ceac40:'/Users/qin/Desktop/ios_auto_package_test/ios_auto_package_test/archieve_temp/iOS_dddd/iOS_dddd.xcarchive/Products/Applications/iOS_dddd.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fd7f601aba0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fd7f6033030; name='iPhone Developer: yifan zheng (3K4YB4P7U5)', hash='5A24EC027650DD1E4E7837C80F6C30223C833089', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fd7f59f1b30>', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-01 09:57:18 +0000''>', entitlements='{
+    "application-identifier" = "72T9692VHT.qqq.bgdemo";
+    "com.apple.developer.team-identifier" = 72T9692VHT;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "72T9692VHT.qqq.bgdemo"
+    );
+}', teamID='72T9692VHT', identifier='qqq.bgdemo', executablePath='<DVTFilePath:0x7fd7f5e5e6c0:'/Users/qin/Desktop/ios_auto_package_test/ios_auto_package_test/archieve_temp/iOS_dddd/iOS_dddd.xcarchive/Products/Applications/iOS_dddd.app/iOS_dddd'>', hardenedRuntime='0'>'> to: /var/folders/9n/fv59zbrn23gbnd07w3wslvwc0000gn/T/XcodeDistPipeline.~~~Vo4HUF/entitlements~~~6yD0Ln
+2022-01-09 11:43:44 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '5A24EC027650DD1E4E7837C80F6C30223C833089' '--entitlements' '/var/folders/9n/fv59zbrn23gbnd07w3wslvwc0000gn/T/XcodeDistPipeline.~~~Vo4HUF/entitlements~~~6yD0Ln' '--preserve-metadata=identifier,flags,runtime' '/var/folders/9n/fv59zbrn23gbnd07w3wslvwc0000gn/T/XcodeDistPipeline.~~~Vo4HUF/Root/Payload/iOS_dddd.app'
+2022-01-09 11:43:44 +0000  /var/folders/9n/fv59zbrn23gbnd07w3wslvwc0000gn/T/XcodeDistPipeline.~~~Vo4HUF/Root/Payload/iOS_dddd.app: replacing existing signature
+2022-01-09 11:43:44 +0000  /var/folders/9n/fv59zbrn23gbnd07w3wslvwc0000gn/T/XcodeDistPipeline.~~~Vo4HUF/Root/Payload/iOS_dddd.app: signed app bundle with Mach-O thin (arm64) [qqq.bgdemo]
+2022-01-09 11:43:44 +0000 [MT] /usr/bin/codesign exited with 0
+2022-01-09 11:43:44 +0000 [MT] Processing step: IDEDistributionZipODRItemStep
+2022-01-09 11:43:44 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2022-01-09 11:43:44 +0000 [MT] Processing step: IDEDistributionCreateIPAStep
+2022-01-09 11:43:44 +0000 [MT] Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/9n/fv59zbrn23gbnd07w3wslvwc0000gn/T/XcodeDistPipeline.~~~Vo4HUF/Root' '/var/folders/9n/fv59zbrn23gbnd07w3wslvwc0000gn/T/XcodeDistPipeline.~~~Vo4HUF/Packages/iOS_dddd.ipa'
+2022-01-09 11:43:44 +0000  >>> Copying /var/folders/9n/fv59zbrn23gbnd07w3wslvwc0000gn/T/XcodeDistPipeline.~~~Vo4HUF/Root 
+2022-01-09 11:43:44 +0000  copying file ./Payload/iOS_dddd.app/_CodeSignature/CodeResources ... 
+2022-01-09 11:43:44 +0000  3895 bytes for ./Payload/iOS_dddd.app/_CodeSignature/CodeResources
+2022-01-09 11:43:44 +0000  copying file ./Payload/iOS_dddd.app/iOS_dddd ... 
+2022-01-09 11:43:44 +0000  71072 bytes for ./Payload/iOS_dddd.app/iOS_dddd
+2022-01-09 11:43:44 +0000  copying file ./Payload/iOS_dddd.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2022-01-09 11:43:44 +0000  916 bytes for ./Payload/iOS_dddd.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+copying file ./Payload/iOS_dddd.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2022-01-09 11:43:44 +0000  1173 bytes for ./Payload/iOS_dddd.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+2022-01-09 11:43:44 +0000  copying file ./Payload/iOS_dddd.app/Base.lproj/Main.storyboardc/Info.plist ... 
+258 bytes for ./Payload/iOS_dddd.app/Base.lproj/Main.storyboardc/Info.plist
+2022-01-09 11:43:44 +0000  copying file ./Payload/iOS_dddd.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2022-01-09 11:43:44 +0000  1173 bytes for ./Payload/iOS_dddd.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/iOS_dddd.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2022-01-09 11:43:44 +0000  896 bytes for ./Payload/iOS_dddd.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/iOS_dddd.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2022-01-09 11:43:44 +0000  258 bytes for ./Payload/iOS_dddd.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+2022-01-09 11:43:44 +0000  copying file ./Payload/iOS_dddd.app/embedded.mobileprovision ... 
+2022-01-09 11:43:44 +0000  16364 bytes for ./Payload/iOS_dddd.app/embedded.mobileprovision
+2022-01-09 11:43:44 +0000  copying file ./Payload/iOS_dddd.app/Info.plist ... 
+2022-01-09 11:43:44 +0000  1103 bytes for ./Payload/iOS_dddd.app/Info.plist
+copying file ./Payload/iOS_dddd.app/PkgInfo ... 
+8 bytes for ./Payload/iOS_dddd.app/PkgInfo
+2022-01-09 11:43:44 +0000 [MT] /usr/bin/ditto exited with 0
+2022-01-09 11:43:44 +0000 [MT] Processing step: IDEDistributionAppStoreInformationStep
+2022-01-09 11:43:44 +0000 [MT] Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2022-01-09 11:43:44 +0000 [MT] Processing step: IDEDistributionGenerateProcessedDistributionItems
+2022-01-09 11:43:44 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x7fd7f5f5f000:'/var/folders/9n/fv59zbrn23gbnd07w3wslvwc0000gn/T/XcodeDistPipeline.~~~Vo4HUF/Root/Payload/iOS_dddd.app'>
+2022-01-09 11:43:44 +0000 [MT] Processing step: IDEDistributionCreateManifestStep
